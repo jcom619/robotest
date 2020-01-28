@@ -1,20 +1,20 @@
-version: 2
+version: 2.1
 jobs:
   build_one:
     docker:
       - image: circleci/node:12.14.1
     steps:
       - checkout
-      - run: echo "Why....Hello there!"
+      - run: echo "Why....Hello there"
   build_two:
     docker:
       - image: circleci/node:12.14.1
     steps:
       - checkout
-      - run: echo "Why....not?!"
+      - run: echo "Why....not"
   workflows:
     version: 2
-    build_onetwo:
+    builds_onetwo:
       jobs:
         - build_one
         - build_two
