@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
@@ -31,4 +31,3 @@ workflows:
       - test:
           requires:
             - hithere
-
