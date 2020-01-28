@@ -12,13 +12,14 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
-    "react-scripts": "1.0.17",
+    "react-scripts": "^3.3.0",
     "react-test-renderer": "^16.3.2",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-mock-store": "^1.5.1",
     "redux-thunk": "^2.2.0",
-    "tachyons": "^4.9.1"
+    "tachyons": "^4.9.1",
+    "typescript": "^3.7.5"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -27,5 +28,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "To run the project:",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
 }
