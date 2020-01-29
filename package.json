@@ -1,8 +1,8 @@
 {
   "name": "robofriends",
   "version": "0.1.0",
-  "private": false,
-  "homepage": "https://jcom619.github.io/robotest/",
+  "private": true,
+  "homepage": "/Users/joshuacompton/Desktop/robo-test/robotest",
   "dependencies": {
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
